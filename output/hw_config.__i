@@ -1,0 +1,5 @@
+-c --cpu Cortex-M4.fp -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I.\lib\h -I.\lib\FreeRTOSV8.0.0_Release_Candidate_2\FreeRTOS\Source\include -I.\lib\FreeRTOSV8.0.0_Release_Candidate_2\FreeRTOS\Demo\CORTEX_M4F_STM32F407ZG-SK -I.\lib\FreeRTOSV8.0.0_Release_Candidate_2\FreeRTOS\Source\portable\RVDS\ARM_CM4F -I.\src\include --c99 
+-I D:\Keil\ARM\RV31\INC 
+-I D:\Keil\ARM\CMSIS\Include 
+-I D:\Keil\ARM\Inc\ST\STM32F4xx 
+-DUSE_STDPERIPH_DRIVER -DSTM32F4XX -o ".\output\hw_config.o" --omf_browse ".\output\hw_config.crf" --depend ".\output\hw_config.d" "src\hw_config.c"

@@ -1,0 +1,855 @@
+<html>
+<body>
+<pre>
+<h1>µVision Build Log</h1>
+<h2>Project:</h2>
+E:\•|±€¡l\project - main\pwm_main\STM32F407VGT6.uvproj
+Project File Date:  12/24/2014
+
+<h2>Output:</h2>
+Rebuild target 'Target 1'
+compiling main.c...
+src\main.c(312): warning:  #1035-D: single-precision operand implicitly converted to double-precision
+src\main.c(313): warning:  #1035-D: single-precision operand implicitly converted to double-precision
+src\main.c(324): warning:  #1035-D: single-precision operand implicitly converted to double-precision
+src\main.c(325): warning:  #1035-D: single-precision operand implicitly converted to double-precision
+src\main.c(326): warning:  #1035-D: single-precision operand implicitly converted to double-precision
+src\main.c(388): warning:  #177-D: variable "Data" was declared but never referenced
+src\main.c(520): warning:  #167-D: argument of type "void (*)(void)" is incompatible with parameter of type "TimerCallbackFunction_t"
+src\main.c(544): warning:  #167-D: argument of type "signed char *" is incompatible with parameter of type "const char *const"
+src\main.c(545): warning:  #167-D: argument of type "signed char *" is incompatible with parameter of type "const char *const"
+src\main.c(546): warning:  #167-D: argument of type "signed char *" is incompatible with parameter of type "const char *const"
+src\main.c(548): warning:  #167-D: argument of type "signed char *" is incompatible with parameter of type "const char *const"
+src\main.c(549): warning:  #167-D: argument of type "signed char *" is incompatible with parameter of type "const char *const"
+src\main.c(550): warning:  #167-D: argument of type "signed char *" is incompatible with parameter of type "const char *const"
+compiling hw_config.c...
+src\hw_config.c(277): warning:  #177-D: variable "ctrl" was declared but never referenced
+compiling stm32f4_discovery_lis3dsh.c...
+compiling I2C.c...
+src\I2C.c(80): warning:  #940-D: missing return statement at end of non-void function "I2C_write"
+compiling string-util.c...
+src\string-util.c(68): warning:  #144-D: a value of type "const char *" cannot be used to initialize an entity of type "const unsigned char *"
+src\string-util.c(69): warning:  #144-D: a value of type "char *" cannot be used to initialize an entity of type "unsigned char *"
+src\string-util.c(70): warning:  #1293-D: assignment in condition
+src\string-util.c(76): warning:  #144-D: a value of type "const char *" cannot be used to initialize an entity of type "const unsigned char *"
+src\string-util.c(77): warning:  #144-D: a value of type "char *" cannot be used to initialize an entity of type "unsigned char *"
+src\string-util.c(78): warning:  #1293-D: assignment in condition
+src\string-util.c(157): warning:  #177-D: variable "out_int" was declared but never referenced
+src\string-util.c(249): warning:  #550-D: variable "param_lint" was set but never used
+src\string-util.c(251): warning:  #177-D: variable "itoa_buf" was declared but never referenced
+compiling shell.c...
+src\shell.c(18): warning:  #1293-D: assignment in condition
+src\shell.c(221): warning:  #223-D: function "strcpy" declared implicitly
+src\shell.c(240): warning:  #174-D: expression has no effect
+src\shell.c(246): warning:  #223-D: function "strcpy" declared implicitly
+src\shell.c(288): warning:  #223-D: function "receive_byte" declared implicitly
+compiling hw_it.c...
+assembling startup_stm32f4xx.s...
+compiling stm32f4xx_gpio.c...
+compiling misc.c...
+compiling stm32f4xx_adc.c...
+compiling stm32f4xx_can.c...
+compiling stm32f4xx_crc.c...
+compiling stm32f4xx_cryp.c...
+compiling stm32f4xx_cryp_aes.c...
+compiling stm32f4xx_cryp_des.c...
+compiling stm32f4xx_cryp_tdes.c...
+compiling stm32f4xx_dac.c...
+compiling stm32f4xx_dbgmcu.c...
+compiling stm32f4xx_dcmi.c...
+compiling stm32f4xx_dma.c...
+compiling stm32f4xx_exti.c...
+compiling stm32f4xx_flash.c...
+compiling stm32f4xx_fsmc.c...
+compiling stm32f4xx_hash.c...
+compiling stm32f4xx_hash_md5.c...
+compiling stm32f4xx_hash_sha1.c...
+compiling stm32f4xx_i2c.c...
+compiling stm32f4xx_iwdg.c...
+compiling stm32f4xx_pwr.c...
+compiling stm32f4xx_rcc.c...
+compiling stm32f4xx_rng.c...
+compiling stm32f4xx_rtc.c...
+compiling stm32f4xx_sdio.c...
+compiling stm32f4xx_spi.c...
+compiling stm32f4xx_syscfg.c...
+compiling stm32f4xx_tim.c...
+compiling stm32f4xx_usart.c...
+compiling stm32f4xx_wwdg.c...
+compiling stm32f4_discovery.c...
+compiling system_stm32f4xx.c...
+compiling croutine.c...
+compiling event_groups.c...
+compiling list.c...
+compiling queue.c...
+compiling timers.c...
+compiling port.c...
+lib\FreeRTOSV8.0.0_Release_Candidate_2\FreeRTOS\Source\portable\RVDS\ARM_CM4F\port.c(492): warning: A1581W: Added 2 bytes of padding at address 0xaa
+compiling tasks.c...
+compiling heap_1.c...
+linking...
+Program Size: Code=14516 RO-data=600 RW-data=300 ZI-data=78212  
+FromELF: creating hex file...
+".\output\STM32F407VGT6.axf" - 0 Error(s), 30 Warning(s).
+Build target 'Target 1'
+linking...
+Program Size: Code=14516 RO-data=600 RW-data=300 ZI-data=78212  
+FromELF: creating hex file...
+".\output\STM32F407VGT6.axf" - 0 Error(s), 0 Warning(s).
+Load "E:\\•|±€¡l\\project - main\\pwm_main\\output\\STM32F407VGT6.AXF" 
+Build target 'Target 1'
+compiling shell.c...
+src\shell.c(18): warning:  #1293-D: assignment in condition
+src\shell.c(221): warning:  #223-D: function "strcpy" declared implicitly
+src\shell.c(240): warning:  #174-D: expression has no effect
+src\shell.c(246): warning:  #223-D: function "strcpy" declared implicitly
+src\shell.c(288): warning:  #223-D: function "receive_byte" declared implicitly
+linking...
+Program Size: Code=14532 RO-data=600 RW-data=300 ZI-data=78212  
+FromELF: creating hex file...
+".\output\STM32F407VGT6.axf" - 0 Error(s), 5 Warning(s).
+Load "E:\\•|±€¡l\\project - main\\pwm_main\\output\\STM32F407VGT6.AXF" 
+Build target 'Target 1'
+compiling string-util.c...
+src\string-util.c(68): warning:  #144-D: a value of type "const char *" cannot be used to initialize an entity of type "const unsigned char *"
+src\string-util.c(69): warning:  #144-D: a value of type "char *" cannot be used to initialize an entity of type "unsigned char *"
+src\string-util.c(70): warning:  #1293-D: assignment in condition
+src\string-util.c(76): warning:  #144-D: a value of type "const char *" cannot be used to initialize an entity of type "const unsigned char *"
+src\string-util.c(77): warning:  #144-D: a value of type "char *" cannot be used to initialize an entity of type "unsigned char *"
+src\string-util.c(78): warning:  #1293-D: assignment in condition
+src\string-util.c(157): warning:  #177-D: variable "out_int" was declared but never referenced
+src\string-util.c(249): warning:  #550-D: variable "param_lint" was set but never used
+src\string-util.c(251): warning:  #177-D: variable "itoa_buf" was declared but never referenced
+src\string-util.c(322): error:  #20: identifier "sprintf_cb" is undefined
+Target not created
+Build target 'Target 1'
+compiling string-util.c...
+src\string-util.c(68): warning:  #144-D: a value of type "const char *" cannot be used to initialize an entity of type "const unsigned char *"
+src\string-util.c(69): warning:  #144-D: a value of type "char *" cannot be used to initialize an entity of type "unsigned char *"
+src\string-util.c(70): warning:  #1293-D: assignment in condition
+src\string-util.c(76): warning:  #144-D: a value of type "const char *" cannot be used to initialize an entity of type "const unsigned char *"
+src\string-util.c(77): warning:  #144-D: a value of type "char *" cannot be used to initialize an entity of type "unsigned char *"
+src\string-util.c(78): warning:  #1293-D: assignment in condition
+src\string-util.c(157): warning:  #177-D: variable "out_int" was declared but never referenced
+src\string-util.c(249): warning:  #550-D: variable "param_lint" was set but never used
+src\string-util.c(251): warning:  #177-D: variable "itoa_buf" was declared but never referenced
+src\string-util.c(244): warning:  #177-D: function "base_printf" was declared but never referenced
+linking...
+Program Size: Code=14532 RO-data=600 RW-data=300 ZI-data=78212  
+FromELF: creating hex file...
+".\output\STM32F407VGT6.axf" - 0 Error(s), 10 Warning(s).
+Build target 'Target 1'
+compiling string-util.c...
+src\string-util.c(68): warning:  #144-D: a value of type "const char *" cannot be used to initialize an entity of type "const unsigned char *"
+src\string-util.c(69): warning:  #144-D: a value of type "char *" cannot be used to initialize an entity of type "unsigned char *"
+src\string-util.c(70): warning:  #1293-D: assignment in condition
+src\string-util.c(76): warning:  #144-D: a value of type "const char *" cannot be used to initialize an entity of type "const unsigned char *"
+src\string-util.c(77): warning:  #144-D: a value of type "char *" cannot be used to initialize an entity of type "unsigned char *"
+src\string-util.c(78): warning:  #1293-D: assignment in condition
+src\string-util.c(157): warning:  #177-D: variable "out_int" was declared but never referenced
+linking...
+Program Size: Code=14532 RO-data=600 RW-data=300 ZI-data=78212  
+FromELF: creating hex file...
+".\output\STM32F407VGT6.axf" - 0 Error(s), 7 Warning(s).
+Build target 'Target 1'
+compiling string-util.c...
+src\string-util.c(68): warning:  #144-D: a value of type "const char *" cannot be used to initialize an entity of type "const unsigned char *"
+src\string-util.c(69): warning:  #144-D: a value of type "char *" cannot be used to initialize an entity of type "unsigned char *"
+src\string-util.c(70): warning:  #1293-D: assignment in condition
+src\string-util.c(76): warning:  #144-D: a value of type "const char *" cannot be used to initialize an entity of type "const unsigned char *"
+src\string-util.c(77): warning:  #144-D: a value of type "char *" cannot be used to initialize an entity of type "unsigned char *"
+src\string-util.c(78): warning:  #1293-D: assignment in condition
+src\string-util.c(157): warning:  #177-D: variable "out_int" was declared but never referenced
+linking...
+Program Size: Code=14532 RO-data=600 RW-data=300 ZI-data=78212  
+FromELF: creating hex file...
+".\output\STM32F407VGT6.axf" - 0 Error(s), 7 Warning(s).
+Load "E:\\•|±€¡l\\project - main\\pwm_main\\output\\STM32F407VGT6.AXF" 
+Build target 'Target 1'
+compiling main.c...
+src\main.c(312): warning:  #1035-D: single-precision operand implicitly converted to double-precision
+src\main.c(313): warning:  #1035-D: single-precision operand implicitly converted to double-precision
+src\main.c(324): warning:  #1035-D: single-precision operand implicitly converted to double-precision
+src\main.c(325): warning:  #1035-D: single-precision operand implicitly converted to double-precision
+src\main.c(326): warning:  #1035-D: single-precision operand implicitly converted to double-precision
+src\main.c(388): warning:  #177-D: variable "Data" was declared but never referenced
+src\main.c(520): warning:  #167-D: argument of type "void (*)(void)" is incompatible with parameter of type "TimerCallbackFunction_t"
+src\main.c(544): warning:  #167-D: argument of type "signed char *" is incompatible with parameter of type "const char *const"
+src\main.c(545): warning:  #167-D: argument of type "signed char *" is incompatible with parameter of type "const char *const"
+src\main.c(546): warning:  #167-D: argument of type "signed char *" is incompatible with parameter of type "const char *const"
+src\main.c(548): warning:  #167-D: argument of type "signed char *" is incompatible with parameter of type "const char *const"
+src\main.c(549): warning:  #167-D: argument of type "signed char *" is incompatible with parameter of type "const char *const"
+src\main.c(550): warning:  #167-D: argument of type "signed char *" is incompatible with parameter of type "const char *const"
+compiling shell.c...
+src\shell.c(18): warning:  #1293-D: assignment in condition
+src\shell.c(221): warning:  #223-D: function "strcpy" declared implicitly
+src\shell.c(240): warning:  #174-D: expression has no effect
+src\shell.c(246): warning:  #223-D: function "strcpy" declared implicitly
+src\shell.c(288): warning:  #223-D: function "receive_byte" declared implicitly
+linking...
+.\output\STM32F407VGT6.axf: Error: L6218E: Undefined symbol receive_byte (referred from shell.o).
+Target not created
+Build target 'Target 1'
+compiling main.c...
+src\main.c(312): warning:  #1035-D: single-precision operand implicitly converted to double-precision
+src\main.c(313): warning:  #1035-D: single-precision operand implicitly converted to double-precision
+src\main.c(324): warning:  #1035-D: single-precision operand implicitly converted to double-precision
+src\main.c(325): warning:  #1035-D: single-precision operand implicitly converted to double-precision
+src\main.c(326): warning:  #1035-D: single-precision operand implicitly converted to double-precision
+src\main.c(388): warning:  #177-D: variable "Data" was declared but never referenced
+src\main.c(520): warning:  #167-D: argument of type "void (*)(void)" is incompatible with parameter of type "TimerCallbackFunction_t"
+src\main.c(544): warning:  #167-D: argument of type "signed char *" is incompatible with parameter of type "const char *const"
+src\main.c(545): warning:  #167-D: argument of type "signed char *" is incompatible with parameter of type "const char *const"
+src\main.c(546): warning:  #167-D: argument of type "signed char *" is incompatible with parameter of type "const char *const"
+src\main.c(548): warning:  #167-D: argument of type "signed char *" is incompatible with parameter of type "const char *const"
+src\main.c(549): warning:  #167-D: argument of type "signed char *" is incompatible with parameter of type "const char *const"
+src\main.c(550): warning:  #167-D: argument of type "signed char *" is incompatible with parameter of type "const char *const"
+src\main.c(156): warning: C3017W: msg may be used before being set
+linking...
+Program Size: Code=14544 RO-data=600 RW-data=300 ZI-data=78212  
+FromELF: creating hex file...
+".\output\STM32F407VGT6.axf" - 0 Error(s), 14 Warning(s).
+Load "E:\\•|±€¡l\\project - main\\pwm_main\\output\\STM32F407VGT6.AXF" 
+Build target 'Target 1'
+compiling main.c...
+src\main.c(312): warning:  #1035-D: single-precision operand implicitly converted to double-precision
+src\main.c(313): warning:  #1035-D: single-precision operand implicitly converted to double-precision
+src\main.c(324): warning:  #1035-D: single-precision operand implicitly converted to double-precision
+src\main.c(325): warning:  #1035-D: single-precision operand implicitly converted to double-precision
+src\main.c(326): warning:  #1035-D: single-precision operand implicitly converted to double-precision
+src\main.c(388): warning:  #177-D: variable "Data" was declared but never referenced
+src\main.c(520): warning:  #167-D: argument of type "void (*)(void)" is incompatible with parameter of type "TimerCallbackFunction_t"
+src\main.c(544): warning:  #167-D: argument of type "signed char *" is incompatible with parameter of type "const char *const"
+src\main.c(545): warning:  #167-D: argument of type "signed char *" is incompatible with parameter of type "const char *const"
+src\main.c(546): warning:  #167-D: argument of type "signed char *" is incompatible with parameter of type "const char *const"
+src\main.c(548): warning:  #167-D: argument of type "signed char *" is incompatible with parameter of type "const char *const"
+src\main.c(549): warning:  #167-D: argument of type "signed char *" is incompatible with parameter of type "const char *const"
+src\main.c(550): warning:  #167-D: argument of type "signed char *" is incompatible with parameter of type "const char *const"
+src\main.c(156): warning: C3017W: msg may be used before being set
+compiling shell.c...
+src\shell.c(18): warning:  #1293-D: assignment in condition
+src\shell.c(221): warning:  #223-D: function "strcpy" declared implicitly
+src\shell.c(240): warning:  #174-D: expression has no effect
+src\shell.c(246): warning:  #223-D: function "strcpy" declared implicitly
+src\shell.c(288): warning:  #223-D: function "receive_byte" declared implicitly
+src\shell.c(289): warning:  #223-D: function "My_Usart2_Printf" declared implicitly
+linking...
+Program Size: Code=14552 RO-data=600 RW-data=300 ZI-data=78212  
+FromELF: creating hex file...
+".\output\STM32F407VGT6.axf" - 0 Error(s), 20 Warning(s).
+Load "E:\\•|±€¡l\\project - main\\pwm_main\\output\\STM32F407VGT6.AXF" 
+Build target 'Target 1'
+compiling shell.c...
+src\shell.c(18): warning:  #1293-D: assignment in condition
+src\shell.c(221): warning:  #223-D: function "strcpy" declared implicitly
+src\shell.c(240): warning:  #174-D: expression has no effect
+src\shell.c(246): warning:  #223-D: function "strcpy" declared implicitly
+src\shell.c(286): warning:  #223-D: function "receive_byte" declared implicitly
+src\shell.c(289): warning:  #223-D: function "My_Usart2_Printf" declared implicitly
+linking...
+Program Size: Code=14592 RO-data=600 RW-data=300 ZI-data=78212  
+FromELF: creating hex file...
+".\output\STM32F407VGT6.axf" - 0 Error(s), 6 Warning(s).
+Load "E:\\•|±€¡l\\project - main\\pwm_main\\output\\STM32F407VGT6.AXF" 
+Build target 'Target 1'
+compiling main.c...
+src\main.c(314): warning:  #1035-D: single-precision operand implicitly converted to double-precision
+src\main.c(315): warning:  #1035-D: single-precision operand implicitly converted to double-precision
+src\main.c(326): warning:  #1035-D: single-precision operand implicitly converted to double-precision
+src\main.c(327): warning:  #1035-D: single-precision operand implicitly converted to double-precision
+src\main.c(328): warning:  #1035-D: single-precision operand implicitly converted to double-precision
+src\main.c(390): warning:  #177-D: variable "Data" was declared but never referenced
+src\main.c(522): warning:  #167-D: argument of type "void (*)(void)" is incompatible with parameter of type "TimerCallbackFunction_t"
+src\main.c(546): warning:  #167-D: argument of type "signed char *" is incompatible with parameter of type "const char *const"
+src\main.c(547): warning:  #167-D: argument of type "signed char *" is incompatible with parameter of type "const char *const"
+src\main.c(548): warning:  #167-D: argument of type "signed char *" is incompatible with parameter of type "const char *const"
+src\main.c(550): warning:  #167-D: argument of type "signed char *" is incompatible with parameter of type "const char *const"
+src\main.c(551): warning:  #167-D: argument of type "signed char *" is incompatible with parameter of type "const char *const"
+src\main.c(552): warning:  #167-D: argument of type "signed char *" is incompatible with parameter of type "const char *const"
+compiling shell.c...
+src\shell.c(18): warning:  #1293-D: assignment in condition
+src\shell.c(221): warning:  #223-D: function "strcpy" declared implicitly
+src\shell.c(240): warning:  #174-D: expression has no effect
+src\shell.c(246): warning:  #223-D: function "strcpy" declared implicitly
+src\shell.c(286): warning:  #223-D: function "receive_byte" declared implicitly
+linking...
+Program Size: Code=14616 RO-data=600 RW-data=300 ZI-data=78212  
+FromELF: creating hex file...
+".\output\STM32F407VGT6.axf" - 0 Error(s), 18 Warning(s).
+Load "E:\\•|±€¡l\\project - main\\pwm_main\\output\\STM32F407VGT6.AXF" 
+Build target 'Target 1'
+compiling main.c...
+src\main.c(314): warning:  #1035-D: single-precision operand implicitly converted to double-precision
+src\main.c(315): warning:  #1035-D: single-precision operand implicitly converted to double-precision
+src\main.c(326): warning:  #1035-D: single-precision operand implicitly converted to double-precision
+src\main.c(327): warning:  #1035-D: single-precision operand implicitly converted to double-precision
+src\main.c(328): warning:  #1035-D: single-precision operand implicitly converted to double-precision
+src\main.c(390): warning:  #177-D: variable "Data" was declared but never referenced
+src\main.c(522): warning:  #167-D: argument of type "void (*)(void)" is incompatible with parameter of type "TimerCallbackFunction_t"
+src\main.c(546): warning:  #167-D: argument of type "signed char *" is incompatible with parameter of type "const char *const"
+src\main.c(547): warning:  #167-D: argument of type "signed char *" is incompatible with parameter of type "const char *const"
+src\main.c(548): warning:  #167-D: argument of type "signed char *" is incompatible with parameter of type "const char *const"
+src\main.c(550): warning:  #167-D: argument of type "signed char *" is incompatible with parameter of type "const char *const"
+src\main.c(551): warning:  #167-D: argument of type "signed char *" is incompatible with parameter of type "const char *const"
+src\main.c(552): warning:  #167-D: argument of type "signed char *" is incompatible with parameter of type "const char *const"
+linking...
+Program Size: Code=14616 RO-data=600 RW-data=300 ZI-data=78212  
+FromELF: creating hex file...
+".\output\STM32F407VGT6.axf" - 0 Error(s), 13 Warning(s).
+Load "E:\\•|±€¡l\\project - main\\pwm_main\\output\\STM32F407VGT6.AXF" 
+Build target 'Target 1'
+linking...
+Program Size: Code=14616 RO-data=600 RW-data=300 ZI-data=78212  
+FromELF: creating hex file...
+".\output\STM32F407VGT6.axf" - 0 Error(s), 0 Warning(s).
+Load "E:\\•|±€¡l\\project - main\\pwm_main\\output\\STM32F407VGT6.AXF" 
+Build target 'Target 1'
+compiling main.c...
+src\main.c(314): warning:  #1035-D: single-precision operand implicitly converted to double-precision
+src\main.c(315): warning:  #1035-D: single-precision operand implicitly converted to double-precision
+src\main.c(326): warning:  #1035-D: single-precision operand implicitly converted to double-precision
+src\main.c(327): warning:  #1035-D: single-precision operand implicitly converted to double-precision
+src\main.c(328): warning:  #1035-D: single-precision operand implicitly converted to double-precision
+src\main.c(390): warning:  #177-D: variable "Data" was declared but never referenced
+src\main.c(522): warning:  #167-D: argument of type "void (*)(void)" is incompatible with parameter of type "TimerCallbackFunction_t"
+src\main.c(546): warning:  #167-D: argument of type "signed char *" is incompatible with parameter of type "const char *const"
+src\main.c(547): warning:  #167-D: argument of type "signed char *" is incompatible with parameter of type "const char *const"
+src\main.c(548): warning:  #167-D: argument of type "signed char *" is incompatible with parameter of type "const char *const"
+src\main.c(550): warning:  #167-D: argument of type "signed char *" is incompatible with parameter of type "const char *const"
+src\main.c(551): warning:  #167-D: argument of type "signed char *" is incompatible with parameter of type "const char *const"
+src\main.c(552): warning:  #167-D: argument of type "signed char *" is incompatible with parameter of type "const char *const"
+linking...
+Program Size: Code=14572 RO-data=600 RW-data=300 ZI-data=78212  
+FromELF: creating hex file...
+".\output\STM32F407VGT6.axf" - 0 Error(s), 13 Warning(s).
+Load "E:\\•|±€¡l\\project - main\\pwm_main\\output\\STM32F407VGT6.AXF" 
+Build target 'Target 1'
+compiling main.c...
+src\main.c(314): warning:  #1035-D: single-precision operand implicitly converted to double-precision
+src\main.c(315): warning:  #1035-D: single-precision operand implicitly converted to double-precision
+src\main.c(326): warning:  #1035-D: single-precision operand implicitly converted to double-precision
+src\main.c(327): warning:  #1035-D: single-precision operand implicitly converted to double-precision
+src\main.c(328): warning:  #1035-D: single-precision operand implicitly converted to double-precision
+src\main.c(390): warning:  #177-D: variable "Data" was declared but never referenced
+src\main.c(522): warning:  #167-D: argument of type "void (*)(void)" is incompatible with parameter of type "TimerCallbackFunction_t"
+src\main.c(546): warning:  #167-D: argument of type "signed char *" is incompatible with parameter of type "const char *const"
+src\main.c(547): warning:  #167-D: argument of type "signed char *" is incompatible with parameter of type "const char *const"
+src\main.c(548): warning:  #167-D: argument of type "signed char *" is incompatible with parameter of type "const char *const"
+src\main.c(550): warning:  #167-D: argument of type "signed char *" is incompatible with parameter of type "const char *const"
+src\main.c(551): warning:  #167-D: argument of type "signed char *" is incompatible with parameter of type "const char *const"
+src\main.c(552): warning:  #167-D: argument of type "signed char *" is incompatible with parameter of type "const char *const"
+linking...
+Program Size: Code=14572 RO-data=600 RW-data=300 ZI-data=78212  
+FromELF: creating hex file...
+".\output\STM32F407VGT6.axf" - 0 Error(s), 13 Warning(s).
+Load "E:\\•|±€¡l\\project - main\\pwm_main\\output\\STM32F407VGT6.AXF" 
+Build target 'Target 1'
+compiling hw_it.c...
+src\hw_it.c(26): warning:  #550-D: variable "rx_msg" was set but never used
+linking...
+Program Size: Code=14548 RO-data=600 RW-data=300 ZI-data=78212  
+FromELF: creating hex file...
+".\output\STM32F407VGT6.axf" - 0 Error(s), 1 Warning(s).
+Load "E:\\•|±€¡l\\project - main\\pwm_main\\output\\STM32F407VGT6.AXF" 
+Build target 'Target 1'
+compiling hw_it.c...
+linking...
+Program Size: Code=14572 RO-data=600 RW-data=300 ZI-data=78212  
+FromELF: creating hex file...
+".\output\STM32F407VGT6.axf" - 0 Error(s), 0 Warning(s).
+Load "E:\\•|±€¡l\\project - main\\pwm_main\\output\\STM32F407VGT6.AXF" 
+Build target 'Target 1'
+compiling main.c...
+src\main.c(314): warning:  #1035-D: single-precision operand implicitly converted to double-precision
+src\main.c(315): warning:  #1035-D: single-precision operand implicitly converted to double-precision
+src\main.c(326): warning:  #1035-D: single-precision operand implicitly converted to double-precision
+src\main.c(327): warning:  #1035-D: single-precision operand implicitly converted to double-precision
+src\main.c(328): warning:  #1035-D: single-precision operand implicitly converted to double-precision
+src\main.c(390): warning:  #177-D: variable "Data" was declared but never referenced
+src\main.c(522): warning:  #167-D: argument of type "void (*)(void)" is incompatible with parameter of type "TimerCallbackFunction_t"
+src\main.c(546): warning:  #167-D: argument of type "signed char *" is incompatible with parameter of type "const char *const"
+src\main.c(547): warning:  #167-D: argument of type "signed char *" is incompatible with parameter of type "const char *const"
+src\main.c(548): warning:  #167-D: argument of type "signed char *" is incompatible with parameter of type "const char *const"
+src\main.c(550): warning:  #167-D: argument of type "signed char *" is incompatible with parameter of type "const char *const"
+src\main.c(551): warning:  #167-D: argument of type "signed char *" is incompatible with parameter of type "const char *const"
+src\main.c(552): warning:  #167-D: argument of type "signed char *" is incompatible with parameter of type "const char *const"
+compiling hw_it.c...
+linking...
+Program Size: Code=14512 RO-data=600 RW-data=300 ZI-data=78212  
+FromELF: creating hex file...
+".\output\STM32F407VGT6.axf" - 0 Error(s), 13 Warning(s).
+Load "E:\\•|±€¡l\\project - main\\pwm_main\\output\\STM32F407VGT6.AXF" 
+Build target 'Target 1'
+compiling hw_it.c...
+src\hw_it.c(26): warning:  #550-D: variable "rx_msg" was set but never used
+linking...
+Program Size: Code=14492 RO-data=600 RW-data=300 ZI-data=78212  
+FromELF: creating hex file...
+".\output\STM32F407VGT6.axf" - 0 Error(s), 1 Warning(s).
+Load "E:\\•|±€¡l\\project - main\\pwm_main\\output\\STM32F407VGT6.AXF" 
+Build target 'Target 1'
+compiling hw_it.c...
+linking...
+Program Size: Code=14512 RO-data=600 RW-data=300 ZI-data=78212  
+FromELF: creating hex file...
+".\output\STM32F407VGT6.axf" - 0 Error(s), 0 Warning(s).
+Load "E:\\•|±€¡l\\project - main\\pwm_main\\output\\STM32F407VGT6.AXF" 
+Build target 'Target 1'
+compiling hw_it.c...
+linking...
+Program Size: Code=14516 RO-data=600 RW-data=300 ZI-data=78212  
+FromELF: creating hex file...
+".\output\STM32F407VGT6.axf" - 0 Error(s), 0 Warning(s).
+Load "E:\\•|±€¡l\\project - main\\pwm_main\\output\\STM32F407VGT6.AXF" 
+Build target 'Target 1'
+compiling hw_it.c...
+linking...
+Program Size: Code=14512 RO-data=600 RW-data=300 ZI-data=78212  
+FromELF: creating hex file...
+".\output\STM32F407VGT6.axf" - 0 Error(s), 0 Warning(s).
+Load "E:\\•|±€¡l\\project - main\\pwm_main\\output\\STM32F407VGT6.AXF" 
+Build target 'Target 1'
+compiling main.c...
+src\main.c(314): warning:  #1035-D: single-precision operand implicitly converted to double-precision
+src\main.c(315): warning:  #1035-D: single-precision operand implicitly converted to double-precision
+src\main.c(326): warning:  #1035-D: single-precision operand implicitly converted to double-precision
+src\main.c(327): warning:  #1035-D: single-precision operand implicitly converted to double-precision
+src\main.c(328): warning:  #1035-D: single-precision operand implicitly converted to double-precision
+src\main.c(390): warning:  #177-D: variable "Data" was declared but never referenced
+src\main.c(522): warning:  #167-D: argument of type "void (*)(void)" is incompatible with parameter of type "TimerCallbackFunction_t"
+src\main.c(546): warning:  #167-D: argument of type "signed char *" is incompatible with parameter of type "const char *const"
+src\main.c(547): warning:  #167-D: argument of type "signed char *" is incompatible with parameter of type "const char *const"
+src\main.c(548): warning:  #167-D: argument of type "signed char *" is incompatible with parameter of type "const char *const"
+src\main.c(550): warning:  #167-D: argument of type "signed char *" is incompatible with parameter of type "const char *const"
+src\main.c(551): warning:  #167-D: argument of type "signed char *" is incompatible with parameter of type "const char *const"
+src\main.c(552): warning:  #167-D: argument of type "signed char *" is incompatible with parameter of type "const char *const"
+compiling hw_it.c...
+src\hw_it.c(26): warning:  #550-D: variable "rx_msg" was set but never used
+linking...
+Program Size: Code=14492 RO-data=600 RW-data=300 ZI-data=78212  
+FromELF: creating hex file...
+".\output\STM32F407VGT6.axf" - 0 Error(s), 14 Warning(s).
+Load "E:\\•|±€¡l\\project - main\\pwm_main\\output\\STM32F407VGT6.AXF" 
+Build target 'Target 1'
+compiling hw_it.c...
+linking...
+Program Size: Code=14512 RO-data=600 RW-data=300 ZI-data=78212  
+FromELF: creating hex file...
+".\output\STM32F407VGT6.axf" - 0 Error(s), 0 Warning(s).
+Load "E:\\•|±€¡l\\project - main\\pwm_main\\output\\STM32F407VGT6.AXF" 
+Build target 'Target 1'
+compiling hw_it.c...
+linking...
+Program Size: Code=14512 RO-data=600 RW-data=300 ZI-data=78212  
+FromELF: creating hex file...
+".\output\STM32F407VGT6.axf" - 0 Error(s), 0 Warning(s).
+Load "E:\\•|±€¡l\\project - main\\pwm_main\\output\\STM32F407VGT6.AXF" 
+Build target 'Target 1'
+compiling main.c...
+src\main.c(314): warning:  #1035-D: single-precision operand implicitly converted to double-precision
+src\main.c(315): warning:  #1035-D: single-precision operand implicitly converted to double-precision
+src\main.c(326): warning:  #1035-D: single-precision operand implicitly converted to double-precision
+src\main.c(327): warning:  #1035-D: single-precision operand implicitly converted to double-precision
+src\main.c(328): warning:  #1035-D: single-precision operand implicitly converted to double-precision
+src\main.c(390): warning:  #177-D: variable "Data" was declared but never referenced
+src\main.c(522): warning:  #167-D: argument of type "void (*)(void)" is incompatible with parameter of type "TimerCallbackFunction_t"
+src\main.c(546): warning:  #167-D: argument of type "signed char *" is incompatible with parameter of type "const char *const"
+src\main.c(547): warning:  #167-D: argument of type "signed char *" is incompatible with parameter of type "const char *const"
+src\main.c(548): warning:  #167-D: argument of type "signed char *" is incompatible with parameter of type "const char *const"
+src\main.c(550): warning:  #167-D: argument of type "signed char *" is incompatible with parameter of type "const char *const"
+src\main.c(551): warning:  #167-D: argument of type "signed char *" is incompatible with parameter of type "const char *const"
+src\main.c(552): warning:  #167-D: argument of type "signed char *" is incompatible with parameter of type "const char *const"
+compiling hw_it.c...
+linking...
+Program Size: Code=14516 RO-data=600 RW-data=300 ZI-data=78212  
+FromELF: creating hex file...
+".\output\STM32F407VGT6.axf" - 0 Error(s), 13 Warning(s).
+Build target 'Target 1'
+compiling main.c...
+src\main.c(20): error:  #5: cannot open source input file "testp.c": No such file or directory
+Target not created
+Build target 'Target 1'
+compiling main.c...
+src\main.c(20): error:  #5: cannot open source input file "testp.c": No such file or directory
+compiling testp.c...
+src\testp.c(68): warning:  #1-D: last line of file ends without a newline
+Target not created
+Build target 'Target 1'
+compiling main.c...
+src\main.c(20): error:  #5: cannot open source input file "testp.c": No such file or directory
+compiling testp.c...
+Target not created
+Build target 'Target 1'
+compiling main.c...
+.\src\include\testp.h(4): warning:  #1295-D: Deprecated declaration Uart_Init - give arg types
+src\main.c(315): warning:  #1035-D: single-precision operand implicitly converted to double-precision
+src\main.c(316): warning:  #1035-D: single-precision operand implicitly converted to double-precision
+src\main.c(327): warning:  #1035-D: single-precision operand implicitly converted to double-precision
+src\main.c(328): warning:  #1035-D: single-precision operand implicitly converted to double-precision
+src\main.c(329): warning:  #1035-D: single-precision operand implicitly converted to double-precision
+src\main.c(391): warning:  #177-D: variable "Data" was declared but never referenced
+src\main.c(526): warning:  #167-D: argument of type "void (*)(void)" is incompatible with parameter of type "TimerCallbackFunction_t"
+src\main.c(550): warning:  #167-D: argument of type "signed char *" is incompatible with parameter of type "const char *const"
+src\main.c(551): warning:  #167-D: argument of type "signed char *" is incompatible with parameter of type "const char *const"
+src\main.c(552): warning:  #167-D: argument of type "signed char *" is incompatible with parameter of type "const char *const"
+src\main.c(554): warning:  #167-D: argument of type "signed char *" is incompatible with parameter of type "const char *const"
+src\main.c(555): warning:  #167-D: argument of type "signed char *" is incompatible with parameter of type "const char *const"
+src\main.c(556): warning:  #167-D: argument of type "signed char *" is incompatible with parameter of type "const char *const"
+linking...
+.\output\STM32F407VGT6.axf: Error: L6200E: Symbol My_Usart3_Printf multiply defined (by testp.o and hw_config.o).
+Target not created
+Build target 'Target 1'
+compiling hw_config.c...
+src\hw_config.c(269): warning:  #177-D: variable "ctrl" was declared but never referenced
+linking...
+Program Size: Code=14516 RO-data=600 RW-data=300 ZI-data=78212  
+FromELF: creating hex file...
+".\output\STM32F407VGT6.axf" - 0 Error(s), 1 Warning(s).
+Build target 'Target 1'
+compiling hw_config.c...
+.\src\include\testp.h(4): warning:  #1295-D: Deprecated declaration Uart_Init - give arg types
+src\hw_config.c(271): warning:  #177-D: variable "ctrl" was declared but never referenced
+linking...
+Program Size: Code=14692 RO-data=600 RW-data=300 ZI-data=78212  
+FromELF: creating hex file...
+".\output\STM32F407VGT6.axf" - 0 Error(s), 2 Warning(s).
+Build target 'Target 1'
+compiling shell.c...
+src\shell.c(18): warning:  #1293-D: assignment in condition
+src\shell.c(221): warning:  #223-D: function "strcpy" declared implicitly
+src\shell.c(240): warning:  #174-D: expression has no effect
+src\shell.c(246): warning:  #223-D: function "strcpy" declared implicitly
+src\shell.c(281): warning:  #223-D: function "My_Usart3_Printf" declared implicitly
+src\shell.c(286): warning:  #223-D: function "receive_byte" declared implicitly
+linking...
+Program Size: Code=14744 RO-data=600 RW-data=300 ZI-data=78212  
+FromELF: creating hex file...
+".\output\STM32F407VGT6.axf" - 0 Error(s), 6 Warning(s).
+Load "E:\\•|±€¡l\\project - main\\pwm_main\\output\\STM32F407VGT6.AXF" 
+Build target 'Target 1'
+compiling main.c...
+.\src\include\testp.h(4): warning:  #1295-D: Deprecated declaration Uart_Init - give arg types
+src\main.c(303): warning:  #1035-D: single-precision operand implicitly converted to double-precision
+src\main.c(304): warning:  #1035-D: single-precision operand implicitly converted to double-precision
+src\main.c(315): warning:  #1035-D: single-precision operand implicitly converted to double-precision
+src\main.c(316): warning:  #1035-D: single-precision operand implicitly converted to double-precision
+src\main.c(317): warning:  #1035-D: single-precision operand implicitly converted to double-precision
+src\main.c(379): warning:  #177-D: variable "Data" was declared but never referenced
+src\main.c(514): warning:  #167-D: argument of type "void (*)(void)" is incompatible with parameter of type "TimerCallbackFunction_t"
+src\main.c(538): warning:  #167-D: argument of type "signed char *" is incompatible with parameter of type "const char *const"
+src\main.c(539): warning:  #167-D: argument of type "signed char *" is incompatible with parameter of type "const char *const"
+src\main.c(540): warning:  #167-D: argument of type "signed char *" is incompatible with parameter of type "const char *const"
+src\main.c(542): warning:  #167-D: argument of type "signed char *" is incompatible with parameter of type "const char *const"
+src\main.c(543): warning:  #167-D: argument of type "signed char *" is incompatible with parameter of type "const char *const"
+src\main.c(544): warning:  #167-D: argument of type "signed char *" is incompatible with parameter of type "const char *const"
+linking...
+Program Size: Code=14744 RO-data=600 RW-data=300 ZI-data=78212  
+FromELF: creating hex file...
+".\output\STM32F407VGT6.axf" - 0 Error(s), 14 Warning(s).
+Build target 'Target 1'
+compiling shell.c...
+src\shell.c(18): warning:  #1293-D: assignment in condition
+src\shell.c(221): warning:  #223-D: function "strcpy" declared implicitly
+src\shell.c(240): warning:  #174-D: expression has no effect
+src\shell.c(246): warning:  #223-D: function "strcpy" declared implicitly
+src\shell.c(281): warning:  #223-D: function "My_Usart3_Printf" declared implicitly
+src\shell.c(286): warning:  #223-D: function "receive_byte" declared implicitly
+linking...
+Program Size: Code=14752 RO-data=600 RW-data=300 ZI-data=78212  
+FromELF: creating hex file...
+".\output\STM32F407VGT6.axf" - 0 Error(s), 6 Warning(s).
+Load "E:\\•|±€¡l\\project - main\\pwm_main\\output\\STM32F407VGT6.AXF" 
+Build target 'Target 1'
+compiling main.c...
+.\src\include\testp.h(4): warning:  #1295-D: Deprecated declaration Uart_Init - give arg types
+src\main.c(304): warning:  #1035-D: single-precision operand implicitly converted to double-precision
+src\main.c(305): warning:  #1035-D: single-precision operand implicitly converted to double-precision
+src\main.c(316): warning:  #1035-D: single-precision operand implicitly converted to double-precision
+src\main.c(317): warning:  #1035-D: single-precision operand implicitly converted to double-precision
+src\main.c(318): warning:  #1035-D: single-precision operand implicitly converted to double-precision
+src\main.c(380): warning:  #177-D: variable "Data" was declared but never referenced
+src\main.c(515): warning:  #167-D: argument of type "void (*)(void)" is incompatible with parameter of type "TimerCallbackFunction_t"
+src\main.c(539): warning:  #167-D: argument of type "signed char *" is incompatible with parameter of type "const char *const"
+src\main.c(540): warning:  #167-D: argument of type "signed char *" is incompatible with parameter of type "const char *const"
+src\main.c(541): warning:  #167-D: argument of type "signed char *" is incompatible with parameter of type "const char *const"
+src\main.c(543): warning:  #167-D: argument of type "signed char *" is incompatible with parameter of type "const char *const"
+src\main.c(544): warning:  #167-D: argument of type "signed char *" is incompatible with parameter of type "const char *const"
+src\main.c(545): warning:  #167-D: argument of type "signed char *" is incompatible with parameter of type "const char *const"
+compiling shell.c...
+src\shell.c(18): warning:  #1293-D: assignment in condition
+src\shell.c(221): warning:  #223-D: function "strcpy" declared implicitly
+src\shell.c(240): warning:  #174-D: expression has no effect
+src\shell.c(246): warning:  #223-D: function "strcpy" declared implicitly
+src\shell.c(286): warning:  #223-D: function "receive_byte" declared implicitly
+linking...
+Program Size: Code=14760 RO-data=600 RW-data=300 ZI-data=78212  
+FromELF: creating hex file...
+".\output\STM32F407VGT6.axf" - 0 Error(s), 19 Warning(s).
+Load "E:\\•|±€¡l\\project - main\\pwm_main\\output\\STM32F407VGT6.AXF" 
+compiling main.c...
+.\src\include\testp.h(4): warning:  #1295-D: Deprecated declaration Uart_Init - give arg types
+src\main.c(304): warning:  #1035-D: single-precision operand implicitly converted to double-precision
+src\main.c(305): warning:  #1035-D: single-precision operand implicitly converted to double-precision
+src\main.c(316): warning:  #1035-D: single-precision operand implicitly converted to double-precision
+src\main.c(317): warning:  #1035-D: single-precision operand implicitly converted to double-precision
+src\main.c(318): warning:  #1035-D: single-precision operand implicitly converted to double-precision
+src\main.c(380): warning:  #177-D: variable "Data" was declared but never referenced
+src\main.c(515): warning:  #167-D: argument of type "void (*)(void)" is incompatible with parameter of type "TimerCallbackFunction_t"
+src\main.c(539): warning:  #167-D: argument of type "signed char *" is incompatible with parameter of type "const char *const"
+src\main.c(540): warning:  #167-D: argument of type "signed char *" is incompatible with parameter of type "const char *const"
+src\main.c(541): warning:  #167-D: argument of type "signed char *" is incompatible with parameter of type "const char *const"
+src\main.c(543): warning:  #167-D: argument of type "signed char *" is incompatible with parameter of type "const char *const"
+src\main.c(544): warning:  #167-D: argument of type "signed char *" is incompatible with parameter of type "const char *const"
+src\main.c(545): warning:  #167-D: argument of type "signed char *" is incompatible with parameter of type "const char *const"
+src\main.c(145): warning: C3017W: msg may be used before being set
+src\main.c - 0 Error(s), 15 Warning(s).
+Load "E:\\•|±€¡l\\project - main\\pwm_main\\output\\STM32F407VGT6.AXF" 
+Build target 'Target 1'
+linking...
+Program Size: Code=14732 RO-data=600 RW-data=300 ZI-data=78212  
+FromELF: creating hex file...
+".\output\STM32F407VGT6.axf" - 0 Error(s), 0 Warning(s).
+Load "E:\\•|±€¡l\\project - main\\pwm_main\\output\\STM32F407VGT6.AXF" 
+Build target 'Target 1'
+compiling main.c...
+.\src\include\testp.h(4): warning:  #1295-D: Deprecated declaration Uart_Init - give arg types
+src\main.c(304): warning:  #1035-D: single-precision operand implicitly converted to double-precision
+src\main.c(305): warning:  #1035-D: single-precision operand implicitly converted to double-precision
+src\main.c(316): warning:  #1035-D: single-precision operand implicitly converted to double-precision
+src\main.c(317): warning:  #1035-D: single-precision operand implicitly converted to double-precision
+src\main.c(318): warning:  #1035-D: single-precision operand implicitly converted to double-precision
+src\main.c(380): warning:  #177-D: variable "Data" was declared but never referenced
+src\main.c(515): warning:  #167-D: argument of type "void (*)(void)" is incompatible with parameter of type "TimerCallbackFunction_t"
+src\main.c(539): warning:  #167-D: argument of type "signed char *" is incompatible with parameter of type "const char *const"
+src\main.c(540): warning:  #167-D: argument of type "signed char *" is incompatible with parameter of type "const char *const"
+src\main.c(541): warning:  #167-D: argument of type "signed char *" is incompatible with parameter of type "const char *const"
+src\main.c(543): warning:  #167-D: argument of type "signed char *" is incompatible with parameter of type "const char *const"
+src\main.c(544): warning:  #167-D: argument of type "signed char *" is incompatible with parameter of type "const char *const"
+src\main.c(545): warning:  #167-D: argument of type "signed char *" is incompatible with parameter of type "const char *const"
+linking...
+Program Size: Code=14760 RO-data=600 RW-data=300 ZI-data=78212  
+FromELF: creating hex file...
+".\output\STM32F407VGT6.axf" - 0 Error(s), 14 Warning(s).
+Load "E:\\•|±€¡l\\project - main\\pwm_main\\output\\STM32F407VGT6.AXF" 
+Build target 'Target 1'
+compiling main.c...
+.\src\include\testp.h(4): warning:  #1295-D: Deprecated declaration Uart_Init - give arg types
+src\main.c(304): warning:  #1035-D: single-precision operand implicitly converted to double-precision
+src\main.c(305): warning:  #1035-D: single-precision operand implicitly converted to double-precision
+src\main.c(316): warning:  #1035-D: single-precision operand implicitly converted to double-precision
+src\main.c(317): warning:  #1035-D: single-precision operand implicitly converted to double-precision
+src\main.c(318): warning:  #1035-D: single-precision operand implicitly converted to double-precision
+src\main.c(380): warning:  #177-D: variable "Data" was declared but never referenced
+src\main.c(515): warning:  #167-D: argument of type "void (*)(void)" is incompatible with parameter of type "TimerCallbackFunction_t"
+src\main.c(539): warning:  #167-D: argument of type "signed char *" is incompatible with parameter of type "const char *const"
+src\main.c(540): warning:  #167-D: argument of type "signed char *" is incompatible with parameter of type "const char *const"
+src\main.c(541): warning:  #167-D: argument of type "signed char *" is incompatible with parameter of type "const char *const"
+src\main.c(543): warning:  #167-D: argument of type "signed char *" is incompatible with parameter of type "const char *const"
+src\main.c(544): warning:  #167-D: argument of type "signed char *" is incompatible with parameter of type "const char *const"
+src\main.c(545): warning:  #167-D: argument of type "signed char *" is incompatible with parameter of type "const char *const"
+compiling hw_it.c...
+src\hw_it.c(45): warning:  #223-D: function "My_Usart3_Printf" declared implicitly
+linking...
+Program Size: Code=14780 RO-data=600 RW-data=300 ZI-data=78212  
+FromELF: creating hex file...
+".\output\STM32F407VGT6.axf" - 0 Error(s), 15 Warning(s).
+Load "E:\\•|±€¡l\\project - main\\pwm_main\\output\\STM32F407VGT6.AXF" 
+Build target 'Target 1'
+compiling hw_it.c...
+src\hw_it.c(45): warning:  #223-D: function "My_Usart3_Printf" declared implicitly
+src\hw_it.c(54): warning:  #111-D: statement is unreachable
+linking...
+Program Size: Code=14800 RO-data=600 RW-data=300 ZI-data=78212  
+FromELF: creating hex file...
+".\output\STM32F407VGT6.axf" - 0 Error(s), 2 Warning(s).
+Load "E:\\•|±€¡l\\project - main\\pwm_main\\output\\STM32F407VGT6.AXF" 
+Build target 'Target 1'
+compiling hw_it.c...
+src\hw_it.c(45): warning:  #223-D: function "My_Usart3_Printf" declared implicitly
+linking...
+Program Size: Code=14816 RO-data=600 RW-data=300 ZI-data=78212  
+FromELF: creating hex file...
+".\output\STM32F407VGT6.axf" - 0 Error(s), 1 Warning(s).
+Load "E:\\•|±€¡l\\project - main\\pwm_main\\output\\STM32F407VGT6.AXF" 
+Build target 'Target 1'
+compiling hw_it.c...
+src\hw_it.c(52): warning:  #223-D: function "My_Usart3_Printf" declared implicitly
+src\hw_it.c(56): warning:  #223-D: function "My_Usart3_Printf" declared implicitly
+linking...
+Program Size: Code=14796 RO-data=600 RW-data=300 ZI-data=78212  
+FromELF: creating hex file...
+".\output\STM32F407VGT6.axf" - 0 Error(s), 2 Warning(s).
+Load "E:\\•|±€¡l\\project - main\\pwm_main\\output\\STM32F407VGT6.AXF" 
+Build target 'Target 1'
+compiling hw_it.c...
+src\hw_it.c(56): warning:  #223-D: function "My_Usart3_Printf" declared implicitly
+src\hw_it.c(26): warning:  #550-D: variable "rx_msg" was set but never used
+linking...
+Program Size: Code=14756 RO-data=600 RW-data=300 ZI-data=78212  
+FromELF: creating hex file...
+".\output\STM32F407VGT6.axf" - 0 Error(s), 2 Warning(s).
+Load "E:\\•|±€¡l\\project - main\\pwm_main\\output\\STM32F407VGT6.AXF" 
+Build target 'Target 1'
+compiling hw_it.c...
+src\hw_it.c(45): warning:  #223-D: function "My_Usart3_Printf" declared implicitly
+src\hw_it.c(26): warning:  #550-D: variable "rx_msg" was set but never used
+linking...
+Program Size: Code=14776 RO-data=600 RW-data=300 ZI-data=78212  
+FromELF: creating hex file...
+".\output\STM32F407VGT6.axf" - 0 Error(s), 2 Warning(s).
+Load "E:\\•|±€¡l\\project - main\\pwm_main\\output\\STM32F407VGT6.AXF" 
+Build target 'Target 1'
+compiling hw_it.c...
+src\hw_it.c(45): warning:  #223-D: function "My_Usart3_Printf" declared implicitly
+linking...
+Program Size: Code=14796 RO-data=600 RW-data=300 ZI-data=78212  
+FromELF: creating hex file...
+".\output\STM32F407VGT6.axf" - 0 Error(s), 1 Warning(s).
+Load "E:\\•|±€¡l\\project - main\\pwm_main\\output\\STM32F407VGT6.AXF" 
+Build target 'Target 1'
+compiling hw_it.c...
+src\hw_it.c(45): warning:  #223-D: function "My_Usart3_Printf" declared implicitly
+src\hw_it.c(75): error:  #65: expected a ";"
+src\hw_it.c(93): warning: At end of source:  #12-D: parsing restarts here after previous syntax error
+src\hw_it.c(93): error: At end of source:  #67: expected a "}"
+Target not created
+Build target 'Target 1'
+compiling hw_it.c...
+src\hw_it.c(45): warning:  #223-D: function "My_Usart3_Printf" declared implicitly
+linking...
+Program Size: Code=14780 RO-data=600 RW-data=300 ZI-data=78212  
+FromELF: creating hex file...
+".\output\STM32F407VGT6.axf" - 0 Error(s), 1 Warning(s).
+Load "E:\\•|±€¡l\\project - main\\pwm_main\\output\\STM32F407VGT6.AXF" 
+Build target 'Target 1'
+compiling hw_it.c...
+src\hw_it.c(45): warning:  #223-D: function "My_Usart3_Printf" declared implicitly
+src\hw_it.c(49): error:  #167: argument of type "signed long *" is incompatible with parameter of type "TickType_t"
+Target not created
+Build target 'Target 1'
+compiling hw_it.c...
+src\hw_it.c(45): warning:  #223-D: function "My_Usart3_Printf" declared implicitly
+linking...
+Program Size: Code=14780 RO-data=600 RW-data=300 ZI-data=78212  
+FromELF: creating hex file...
+".\output\STM32F407VGT6.axf" - 0 Error(s), 1 Warning(s).
+Build target 'Target 1'
+compiling hw_it.c...
+src\hw_it.c(45): warning:  #223-D: function "My_Usart3_Printf" declared implicitly
+src\hw_it.c(49): error:  #167: argument of type "signed long *" is incompatible with parameter of type "TickType_t"
+Target not created
+Build target 'Target 1'
+compiling hw_it.c...
+src\hw_it.c(45): warning:  #223-D: function "My_Usart3_Printf" declared implicitly
+linking...
+Program Size: Code=14780 RO-data=600 RW-data=300 ZI-data=78212  
+FromELF: creating hex file...
+".\output\STM32F407VGT6.axf" - 0 Error(s), 1 Warning(s).
+Load "E:\\•|±€¡l\\project - main\\pwm_main\\output\\STM32F407VGT6.AXF" 
+Build target 'Target 1'
+compiling hw_it.c...
+src\hw_it.c(45): warning:  #223-D: function "My_Usart3_Printf" declared implicitly
+linking...
+Program Size: Code=14780 RO-data=600 RW-data=300 ZI-data=78212  
+FromELF: creating hex file...
+".\output\STM32F407VGT6.axf" - 0 Error(s), 1 Warning(s).
+Build target 'Target 1'
+compiling hw_it.c...
+src\hw_it.c(33): warning:  #223-D: function "My_Usart3_Printf" declared implicitly
+src\hw_it.c(46): warning:  #223-D: function "My_Usart3_Printf" declared implicitly
+linking...
+Program Size: Code=14792 RO-data=600 RW-data=300 ZI-data=78212  
+FromELF: creating hex file...
+".\output\STM32F407VGT6.axf" - 0 Error(s), 2 Warning(s).
+Load "E:\\•|±€¡l\\project - main\\pwm_main\\output\\STM32F407VGT6.AXF" 
+Build target 'Target 1'
+compiling hw_it.c...
+src\hw_it.c(34): warning:  #223-D: function "My_Usart3_Printf" declared implicitly
+src\hw_it.c(48): warning:  #223-D: function "My_Usart3_Printf" declared implicitly
+linking...
+Program Size: Code=14792 RO-data=600 RW-data=300 ZI-data=78212  
+FromELF: creating hex file...
+".\output\STM32F407VGT6.axf" - 0 Error(s), 2 Warning(s).
+Load "E:\\•|±€¡l\\project - main\\pwm_main\\output\\STM32F407VGT6.AXF" 
+Build target 'Target 1'
+compiling hw_it.c...
+src\hw_it.c(27): warning:  #223-D: function "My_Usart3_Printf" declared implicitly
+linking...
+Program Size: Code=14820 RO-data=600 RW-data=300 ZI-data=78212  
+FromELF: creating hex file...
+".\output\STM32F407VGT6.axf" - 0 Error(s), 1 Warning(s).
+Load "E:\\•|±€¡l\\project - main\\pwm_main\\output\\STM32F407VGT6.AXF" 
+Build target 'Target 1'
+compiling hw_it.c...
+src\hw_it.c(34): warning:  #223-D: function "My_Usart3_Printf" declared implicitly
+src\hw_it.c(48): warning:  #223-D: function "My_Usart3_Printf" declared implicitly
+linking...
+Program Size: Code=14796 RO-data=600 RW-data=300 ZI-data=78212  
+FromELF: creating hex file...
+".\output\STM32F407VGT6.axf" - 0 Error(s), 2 Warning(s).
+Load "E:\\•|±€¡l\\project - main\\pwm_main\\output\\STM32F407VGT6.AXF" 
+Build target 'Target 1'
+compiling hw_it.c...
+src\hw_it.c(36): warning:  #223-D: function "My_Usart3_Printf" declared implicitly
+src\hw_it.c(49): warning:  #223-D: function "My_Usart3_Printf" declared implicitly
+linking...
+Program Size: Code=14796 RO-data=600 RW-data=300 ZI-data=78212  
+FromELF: creating hex file...
+".\output\STM32F407VGT6.axf" - 0 Error(s), 2 Warning(s).
+Load "E:\\•|±€¡l\\project - main\\pwm_main\\output\\STM32F407VGT6.AXF" 
+Build target 'Target 1'
+compiling hw_it.c...
+src\hw_it.c(49): warning:  #223-D: function "My_Usart3_Printf" declared implicitly
+linking...
+Program Size: Code=14780 RO-data=600 RW-data=300 ZI-data=78212  
+FromELF: creating hex file...
+".\output\STM32F407VGT6.axf" - 0 Error(s), 1 Warning(s).
+Load "E:\\•|±€¡l\\project - main\\pwm_main\\output\\STM32F407VGT6.AXF" 
+Build target 'Target 1'
+compiling hw_it.c...
+src\hw_it.c(49): warning:  #223-D: function "My_Usart3_Printf" declared implicitly
+linking...
+Program Size: Code=14816 RO-data=600 RW-data=300 ZI-data=78212  
+FromELF: creating hex file...
+".\output\STM32F407VGT6.axf" - 0 Error(s), 1 Warning(s).
+Load "E:\\•|±€¡l\\project - main\\pwm_main\\output\\STM32F407VGT6.AXF" 
+Build target 'Target 1'
+compiling hw_it.c...
+src\hw_it.c(49): warning:  #223-D: function "My_Usart3_Printf" declared implicitly
+src\hw_it.c(53): error:  #167: argument of type "signed long *" is incompatible with parameter of type "TickType_t"
+Target not created
+Build target 'Target 1'
+compiling hw_it.c...
+src\hw_it.c(49): warning:  #223-D: function "My_Usart3_Printf" declared implicitly
+linking...
+Program Size: Code=14800 RO-data=600 RW-data=300 ZI-data=78212  
+FromELF: creating hex file...
+".\output\STM32F407VGT6.axf" - 0 Error(s), 1 Warning(s).
+Load "E:\\•|±€¡l\\project - main\\pwm_main\\output\\STM32F407VGT6.AXF" 
+Build target 'Target 1'
+compiling hw_it.c...
+src\hw_it.c(47): error:  #137: expression must be a modifiable lvalue
+src\hw_it.c(49): warning:  #223-D: function "My_Usart3_Printf" declared implicitly
+Target not created
+Build target 'Target 1'
+compiling hw_it.c...
+src\hw_it.c(47): error:  #137: expression must be a modifiable lvalue
+src\hw_it.c(57): warning:  #223-D: function "My_Usart3_Printf" declared implicitly
+src\hw_it.c(61): warning:  #223-D: function "My_Usart3_Printf" declared implicitly
+Target not created
+Build target 'Target 1'
+compiling hw_it.c...
+src\hw_it.c(49): warning:  #223-D: function "My_Usart3_Printf" declared implicitly
+linking...
+Program Size: Code=14800 RO-data=600 RW-data=300 ZI-data=78212  
+FromELF: creating hex file...
+".\output\STM32F407VGT6.axf" - 0 Error(s), 1 Warning(s).
+Build target 'Target 1'
+compiling hw_it.c...
+src\hw_it.c(49): warning:  #223-D: function "My_Usart3_Printf" declared implicitly
+src\hw_it.c(65): warning:  #223-D: function "My_Usart3_Printf" declared implicitly
+linking...
+Program Size: Code=14816 RO-data=600 RW-data=300 ZI-data=78212  
+FromELF: creating hex file...
+".\output\STM32F407VGT6.axf" - 0 Error(s), 2 Warning(s).
+Load "E:\\•|±€¡l\\project - main\\pwm_main\\output\\STM32F407VGT6.AXF" 
